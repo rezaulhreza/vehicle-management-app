@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>view.AddVehicleView</OriginalElement>
+  <nodes>
+    <node x="506.24999999999994" y="224.5">controller.SearchControllerForClient</node>
+    <node x="253.25" y="257.5">model.LoginModel</node>
+    <node x="1023.25" y="213.5">controller.SearchControllerForVehicles</node>
+    <node x="2186.9817176870747" y="268.5">model.AddVehicleModel</node>
+    <node x="51.832642431973454" y="993.0127231684794">nvhc.Application</node>
+    <node x="0.0" y="213.0">view.LoginView</node>
+    <node x="1952.1692176870747" y="565.0">controller.AddVehicleController</node>
+    <node x="1598.25" y="268.5">model.AddClientModel</node>
+    <node x="682.25" y="576.0">controller.ClientController</node>
+    <node x="993.9369153911565" y="0.0">view.SearchViewForVehicles</node>
+    <node x="471.8181335034009" y="11.0">view.SearchViewForClient</node>
+    <node x="1368.9369153911566" y="576.0">controller.AddClientController</node>
+    <node x="808.25" y="257.5">view.ClientView</node>
+    <node x="1009.7317176870747" y="831.0">controller.LoginController</node>
+    <node x="1847.25" y="136.0">view.AddVehicleView</node>
+    <node x="1307.25" y="158.0">view.AddClientView</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controller.SearchControllerForVehicles" target="view.SearchViewForVehicles">
+      <point x="-66.0" y="-82.0" />
+      <point x="1089.25" y="116.0" />
+      <point x="1108.5202487244899" y="116.0" />
+      <point x="-22.91666666666663" y="38.0" />
+    </edge>
+    <edge source="controller.LoginController" target="controller.ClientController">
+      <point x="-28.875" y="-38.0" />
+      <point x="1064.8567176870747" y="711.0" />
+      <point x="704.25" y="711.0" />
+      <point x="-66.0" y="27.0" />
+    </edge>
+    <edge source="controller.AddVehicleController" target="view.AddVehicleView">
+      <point x="-78.0" y="-38.0" />
+      <point x="1978.1692176870747" y="545.0" />
+      <point x="2015.375" y="545.0" />
+      <point x="33.625" y="159.5" />
+    </edge>
+    <edge source="controller.ClientController" target="view.SearchViewForClient">
+      <point x="-6.285714285714221" y="-27.0" />
+      <point x="764.75" y="106.0" />
+      <point x="672.8181335034009" y="106.0" />
+      <point x="67.0" y="27.0" />
+    </edge>
+    <edge source="controller.LoginController" target="view.SearchViewForClient">
+      <point x="-60.375" y="-38.0" />
+      <point x="1033.3567176870747" y="771.0" />
+      <point x="242.75" y="771.0" />
+      <point x="242.75" y="116.0" />
+      <point x="538.8181335034009" y="116.0" />
+      <point x="-67.0" y="27.0" />
+    </edge>
+    <edge source="controller.ClientController" target="view.LoginView">
+      <point x="-81.71428571428578" y="-27.0" />
+      <point x="688.5357142857142" y="525.0" />
+      <point x="178.35714285714266" y="525.0" />
+      <point x="64.85714285714266" y="82.5" />
+    </edge>
+    <edge source="controller.LoginController" target="model.AddVehicleModel">
+      <point x="70.875" y="-38.0" />
+      <point x="1164.6067176870747" y="791.0" />
+      <point x="2344.475499574831" y="791.0" />
+      <point x="2344.475499574831" y="545.0" />
+      <point x="2330.1067176870747" y="545.0" />
+      <point x="28.625" y="27.0" />
+    </edge>
+    <edge source="controller.AddClientController" target="model.AddClientModel">
+      <point x="25.0" y="-27.0" />
+      <point x="1493.9369153911566" y="535.0" />
+      <point x="1626.875" y="535.0" />
+      <point x="-85.875" y="27.0" />
+    </edge>
+    <edge source="controller.LoginController" target="view.LoginView">
+      <point x="-70.875" y="-38.0" />
+      <point x="1022.8567176870747" y="791.0" />
+      <point x="129.2132759353742" y="791.0" />
+      <point x="129.2132759353742" y="525.0" />
+      <point x="145.92857142857156" y="525.0" />
+      <point x="32.42857142857156" y="82.5" />
+    </edge>
+    <edge source="nvhc.Application" target="controller.LoginController">
+      <point x="37.25" y="-27.0" />
+      <point x="163.58264243197345" y="947.0" />
+      <point x="1051.7317176870747" y="947.0" />
+      <point x="-42.0" y="38.0" />
+    </edge>
+    <edge source="controller.LoginController" target="controller.AddClientController">
+      <point x="18.375" y="-38.0" />
+      <point x="1112.1067176870747" y="691.0" />
+      <point x="1418.9369153911566" y="691.0" />
+      <point x="-50.0" y="27.0" />
+    </edge>
+    <edge source="controller.ClientController" target="view.ClientView">
+      <point x="44.0" y="-27.0" />
+      <point x="814.25" y="515.0" />
+      <point x="832.625" y="515.0" />
+      <point x="-73.125" y="38.0" />
+    </edge>
+    <edge source="controller.LoginController" target="view.AddVehicleView">
+      <point x="44.625" y="-38.0" />
+      <point x="1138.3567176870747" y="741.0" />
+      <point x="1904.9811330782313" y="741.0" />
+      <point x="1904.9811330782313" y="545.0" />
+      <point x="1880.875" y="545.0" />
+      <point x="-100.875" y="159.5" />
+    </edge>
+    <edge source="controller.LoginController" target="view.ClientView">
+      <point x="-2.625" y="-38.0" />
+      <point x="1091.1067176870747" y="661.0" />
+      <point x="974.2879995748306" y="661.0" />
+      <point x="974.2879995748306" y="525.0" />
+      <point x="978.875" y="525.0" />
+      <point x="73.125" y="38.0" />
+    </edge>
+    <edge source="controller.LoginController" target="view.SearchViewForVehicles">
+      <point x="81.375" y="-38.0" />
+      <point x="1175.1067176870747" y="811.0" />
+      <point x="2426.4817176870747" y="811.0" />
+      <point x="2426.4817176870747" y="96.0" />
+      <point x="1246.02024872449" y="96.0" />
+      <point x="114.58333333333348" y="38.0" />
+    </edge>
+    <edge source="controller.ClientController" target="view.SearchViewForVehicles">
+      <point x="18.85714285714289" y="-27.0" />
+      <point x="789.1071428571429" y="545.0" />
+      <point x="786.75" y="545.0" />
+      <point x="786.75" y="106.0" />
+      <point x="1016.8535820578231" y="106.0" />
+      <point x="-114.58333333333337" y="38.0" />
+    </edge>
+    <edge source="controller.LoginController" target="model.AddClientModel">
+      <point x="39.375" y="-38.0" />
+      <point x="1133.1067176870747" y="731.0" />
+      <point x="1773.6629995748306" y="731.0" />
+      <point x="1773.6629995748306" y="545.0" />
+      <point x="1798.625" y="545.0" />
+      <point x="85.875" y="27.0" />
+    </edge>
+    <edge source="controller.LoginController" target="controller.AddVehicleController">
+      <point x="55.125" y="-38.0" />
+      <point x="1148.8567176870747" y="761.0" />
+      <point x="2004.1692176870747" y="761.0" />
+      <point x="-52.0" y="38.0" />
+    </edge>
+    <edge source="controller.LoginController" target="model.LoginModel">
+      <point x="-44.625" y="-38.0" />
+      <point x="1049.1067176870747" y="741.0" />
+      <point x="399.89514243197345" y="741.0" />
+      <point x="399.89514243197345" y="545.0" />
+      <point x="403.0357142857142" y="545.0" />
+      <point x="33.28571428571422" y="38.0" />
+    </edge>
+    <edge source="controller.SearchControllerForClient" target="view.SearchViewForClient">
+      <point x="-62.0" y="-71.0" />
+      <point x="568.25" y="116.0" />
+      <point x="583.4848001700676" y="116.0" />
+      <point x="-22.333333333333258" y="27.0" />
+    </edge>
+    <edge source="controller.ClientController" target="controller.SearchControllerForClient">
+      <point x="-31.42857142857133" y="-27.0" />
+      <point x="738.8214285714287" y="485.0" />
+      <point x="661.25" y="485.0" />
+      <point x="31.0" y="71.0" />
+    </edge>
+    <edge source="controller.ClientController" target="controller.SearchControllerForVehicles">
+      <point x="69.14285714285711" y="-27.0" />
+      <point x="839.3928571428571" y="535.0" />
+      <point x="1056.25" y="535.0" />
+      <point x="-99.0" y="82.0" />
+    </edge>
+    <edge source="controller.AddClientController" target="view.AddClientView">
+      <point x="-75.0" y="-27.0" />
+      <point x="1393.9369153911566" y="545.0" />
+      <point x="1408.875" y="545.0" />
+      <point x="-33.875" y="137.5" />
+    </edge>
+    <edge source="controller.LoginController" target="controller.SearchControllerForVehicles">
+      <point x="2.625" y="-38.0" />
+      <point x="1096.3567176870747" y="661.0" />
+      <point x="1218.625" y="661.0" />
+      <point x="1218.625" y="545.0" />
+      <point x="1188.25" y="545.0" />
+      <point x="33.0" y="82.0" />
+    </edge>
+    <edge source="controller.ClientController" target="model.LoginModel">
+      <point x="-56.57142857142867" y="-27.0" />
+      <point x="713.6785714285713" y="505.0" />
+      <point x="436.32142857142844" y="505.0" />
+      <point x="66.57142857142844" y="38.0" />
+    </edge>
+    <edge source="nvhc.Application" target="model.LoginModel">
+      <point x="-12.416666666666515" y="-27.0" />
+      <point x="113.91597576530694" y="937.0" />
+      <point x="77.36564625850338" y="937.0" />
+      <point x="77.36564625850338" y="535.0" />
+      <point x="269.8928571428571" y="535.0" />
+      <point x="-99.85714285714289" y="38.0" />
+    </edge>
+    <edge source="controller.ClientController" target="controller.LoginController">
+      <point x="22.0" y="27.0" />
+      <point x="792.25" y="691.0" />
+      <point x="1075.3567176870747" y="691.0" />
+      <point x="-18.375" y="-38.0" />
+    </edge>
+    <edge source="controller.LoginController" target="view.AddClientView">
+      <point x="13.125" y="-38.0" />
+      <point x="1106.8567176870747" y="681.0" />
+      <point x="1296.0681335034008" y="681.0" />
+      <point x="1296.0681335034008" y="545.0" />
+      <point x="1341.125" y="545.0" />
+      <point x="-101.625" y="137.5" />
+    </edge>
+    <edge source="nvhc.Application" target="view.LoginView">
+      <point x="-62.083333333333485" y="-27.0" />
+      <point x="64.24930909863997" y="957.0" />
+      <point x="55.365646258503375" y="957.0" />
+      <point x="55.365646258503375" y="545.0" />
+      <point x="16.21428571428578" y="545.0" />
+      <point x="-97.28571428571422" y="82.5" />
+    </edge>
+    <edge source="controller.AddVehicleController" target="model.AddVehicleModel">
+      <point x="26.0" y="-38.0" />
+      <point x="2082.1692176870747" y="535.0" />
+      <point x="2215.6067176870747" y="535.0" />
+      <point x="-85.875" y="27.0" />
+    </edge>
+    <edge source="controller.LoginController" target="controller.SearchControllerForClient">
+      <point x="-39.375" y="-38.0" />
+      <point x="1054.3567176870747" y="731.0" />
+      <point x="532.8181335034008" y="731.0" />
+      <point x="532.8181335034008" y="545.0" />
+      <point x="537.25" y="545.0" />
+      <point x="-93.0" y="71.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5620530565167243" x="1156.9351528832342" y="555.6279499281757" />
+  <SelectedNodes>
+    <node>nvhc.Application</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
