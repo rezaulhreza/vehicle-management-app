@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 The Northampton Vehicle Hire Company requires a GUI (Graphical User Interface) based system for managing their company. The staff should be able to open various accounts for their corporate customers for instance companies, schools, charities etc who can hire out 3 different types of vehicles cars, minibuses, and lorries. The company also intends to allow their customers to see their accounts and look for vehicles available to hire. For each car type the system should be able to create records consisting of their make, model, top speed, registration number and daily hire rate. In terms of minibuses, they would like to store records for seating capacity along with the mentioned items above. Also, loading capacity for lorries are also stored. For every corporate customer it should be able to save the information about them such as identification number, name, address, phone number, email address, username, and password to give them access to log in the system and look for vehicles hired by them and vehicles availabe to hire. It is important to note that, using a GUI based system the staff should be able to do the activities stated below:
 1. Log onto the system with a username and password
@@ -22,7 +22,7 @@ The system, must, also using a GUI allow corporate customers to
 out on loan to the customer and other customers)
 A corporate customer can hire any number of cars, minibuses and lorries and they should be able to return the vehicle when they would like to return.
 
-#System Description (Main components and functionalities)
+# System Description (Main components and functionalities)
 
 The system implements a wide range of features with functionalities as well as components. It is designed in such way so that a vehicle management company can keep a record of the vehicles which are available and hired out. The system lets the staff of the company to do activities listed below:
 •	Log in using the username ‘admin’ and password ‘admin’
